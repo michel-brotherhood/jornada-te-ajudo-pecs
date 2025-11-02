@@ -6,25 +6,25 @@ const ForWho = () => {
     {
       icon: Heart,
       title: "Pais e Mães",
-      description: "De crianças autistas (diagnosticadas ou em investigação)",
+      description: "De crianças com dificuldades de comunicação verbal",
       color: "text-coral"
     },
     {
       icon: GraduationCap,
-      title: "Professores",
-      description: "Da educação infantil e anos iniciais",
+      title: "Educadores",
+      description: "Professores e profissionais da educação inclusiva",
       color: "text-primary"
     },
     {
       icon: Users,
-      title: "Profissionais da Inclusão",
-      description: "Assistentes, acompanhantes terapêuticas e cuidadores",
+      title: "Terapeutas",
+      description: "Fonoaudiólogos, TOs e psicólogos que trabalham com CAA",
       color: "text-secondary"
     },
     {
       icon: Stethoscope,
-      title: "Terapeutas e Estudantes",
-      description: "Iniciantes ou estudantes da área da infância",
+      title: "Profissionais da Saúde",
+      description: "Equipes multidisciplinares e cuidadores",
       color: "text-accent"
     }
   ];
@@ -34,10 +34,10 @@ const ForWho = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-10 md:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 px-2">
-            Pra quem é <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">este ebook</span>
+            Pra quem é <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">este kit</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground px-2">
-            💛 Você não está sozinho(a). E, quanto mais conhecimento adquirido, maior a chance de deixarmos um mundo melhor para nossos autistas.
+            💜 Uma ferramenta prática e acessível para iniciar a jornada de expressão e autonomia na comunicação.
           </p>
         </div>
         

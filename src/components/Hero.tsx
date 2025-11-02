@@ -27,10 +27,10 @@ const Hero = () => {
         <div className="text-center animate-fade-in mb-8 md:mb-12 max-w-4xl mx-auto">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
             <span className="bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">
-              💛 O que ninguém te fala sobre
+              💛 Kit de Comunicação Aumentativa Alternativa
             </span>
             <br />
-            <span className="text-foreground">a parentalidade no autismo</span>
+            <span className="text-foreground">Básico (CAA de baixa tecnologia)</span>
           </h1>
         </div>
 
@@ -53,23 +53,27 @@ const Hero = () => {
           {/* Coluna do Texto */}
           <div className="text-center lg:text-left animate-fade-in space-y-4 md:space-y-6">
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-              Receber o diagnóstico de autismo de um filho(a) muda tudo — os sonhos, os planos e até a forma de enxergar o mundo. É um momento que mistura alívio, medo, culpa e incerteza. Mas também é o início de uma nova jornada — repleta de descobertas, aprendizados e amor em sua forma mais pura.
+              Você já imaginou a angústia e a frustração de tentar se comunicar… e não conseguir ser compreendido? 💭
+            </p>
+            
+            <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
+              Esse é o sentimento de muitas crianças, jovens e adultos que ainda não desenvolveram uma comunicação verbal funcional.
+            </p>
+            
+            <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
+              Mas isso não significa ausência de pensamento, emoção ou intenção. Essas pessoas têm muito a dizer — ideias, necessidades e desejos — que podem (e merecem) ser expressos de outras formas além da fala. 💜
             </p>
             
             <div className="flex flex-col items-center lg:items-start gap-2">
               <Heart className="w-5 h-5 md:w-6 md:h-6 text-coral fill-coral animate-pulse lg:hidden" style={{ animationDuration: '2s' }} />
               <p className="text-base sm:text-lg font-semibold text-foreground">
-                Este ebook nasceu do desejo de acolher pais e mães
+                Uma ponte entre o que se sente e o que se quer comunicar
                 <Heart className="hidden lg:inline-block w-5 h-5 md:w-6 md:h-6 text-coral fill-coral animate-pulse ml-1 -mt-1" style={{ animationDuration: '2s' }} />
               </p>
             </div>
             
-            <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
-              Neste ebook, você vai encontrar mais do que orientações: vai encontrar histórias reais, conselhos práticos, reflexões sinceras e, principalmente, <strong className="text-primary">acolhimento</strong>.
-            </p>
-            
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground italic">
-              ✨ Porque ninguém prepara uma mãe ou um pai para o impacto do diagnóstico. Mas também ninguém te conta sobre a força que nasce da vulnerabilidade, sobre a alegria em cada pequena conquista, e sobre a beleza que existe em enxergar o mundo pelos olhos do seu filho.
+              ✨ As figuras cuidadosamente selecionadas ajudam a facilitar pedidos, expressar vontades e tornar o cotidiano mais previsível e compreensível.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start pt-2 md:pt-4">
@@ -79,7 +83,7 @@ const Hero = () => {
                 style={{ animationDuration: '4s' }}
                 onClick={scrollToEnroll}
               >
-                💛 Quero adquirir o ebook
+                💛 Quero adquirir o kit
               </Button>
               <Button 
                 size="lg" 

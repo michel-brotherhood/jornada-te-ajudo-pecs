@@ -5,33 +5,33 @@ const Benefits = () => {
   const benefits = [
     {
       icon: Sparkles,
-      title: "Histórias Reais",
-      description: "Vivências autênticas de quem vive o autismo todos os dias"
+      title: "16 Categorias",
+      description: "Alimentos, brinquedos, cores, ações, atividades, animais, datas, corpo humano, instrumentos, lugares, números, roupas, transportes, profissões e emoções"
     },
     {
       icon: Target,
-      title: "Conselhos Práticos",
-      description: "Orientações aplicáveis para o dia a dia da parentalidade atípica"
+      title: "Fácil de Usar",
+      description: "Material prático e acessível para os primeiros passos na CAA"
     },
     {
       icon: Eye,
-      title: "Reflexões Sinceras",
-      description: "Sobre o luto silencioso, o cansaço e o medo do futuro"
+      title: "Apoio Visual",
+      description: "Figuras selecionadas para facilitar pedidos e expressões"
     },
     {
       icon: TrendingUp,
-      title: "Acolhimento Real",
-      description: "Um abraço em forma de palavras para quem precisa"
+      title: "Desenvolvimento",
+      description: "Auxilia no desenvolvimento da linguagem e interação social"
     },
     {
       icon: Shield,
-      title: "Caminho Possível",
-      description: "Não promete mágica, mas oferece direção e esperança"
+      title: "Cotidiano Previsível",
+      description: "Torna a rotina mais compreensível e funcional"
     },
     {
       icon: LineChart,
-      title: "Transformação",
-      description: "Uma jornada de amor, aprendizado e reconstrução"
+      title: "Autonomia",
+      description: "Promove independência e confiança na comunicação"
     }
   ];
 
@@ -44,7 +44,7 @@ const Benefits = () => {
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-4 px-2">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent font-semibold">
-              ✨ Neste ebook:
+              ✨ Neste kit:
             </span>
           </p>
         </div>

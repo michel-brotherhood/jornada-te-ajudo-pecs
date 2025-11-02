@@ -7,50 +7,50 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Maria Silva",
-      role: "Mãe de criança autista",
-      content: "Esse curso transformou minha forma de ver o autismo. Finalmente consegui entender meu filho e criar uma conexão real com ele. Gratidão eterna!",
+      role: "Mãe de criança não-verbal",
+      content: "O Kit CAA mudou nossa vida! Meu filho finalmente consegue expressar o que quer. Ver ele se comunicando é emocionante!",
       rating: 5
     },
     {
       name: "João Santos",
-      role: "Professor de educação especial",
-      content: "Material completo e acessível. A forma como é explicado torna tudo muito mais fácil de aplicar no dia a dia. Recomendo muito!",
+      role: "Fonoaudiólogo",
+      content: "Material excelente e muito bem elaborado. As categorias são completas e funcionais. Recomendo para todos os meus pacientes!",
       rating: 5
     },
     {
       name: "Ana Paula",
       role: "Terapeuta ocupacional",
-      content: "Um curso que vai além da teoria. As estratégias práticas me ajudaram tanto na vida profissional quanto pessoal. Vale cada minuto!",
+      content: "Praticidade e qualidade! O kit é perfeito para iniciar o trabalho com CAA. Meus pacientes adoraram e os resultados são visíveis!",
       rating: 5
     },
     {
       name: "Carlos Eduardo",
-      role: "Pai e educador",
-      content: "Conteúdo sensível e profundo. Senti que finalmente alguém entendia as minhas dúvidas e medos. Curso essencial para todos!",
+      role: "Pai e professor",
+      content: "Simples de usar e muito eficaz. As figuras são claras e facilitam muito a comunicação. Gratidão por esse material!",
       rating: 5
     },
     {
       name: "Patrícia Oliveira",
       role: "Psicóloga infantil",
-      content: "Como profissional da área, fiquei impressionada com a qualidade do conteúdo. Um material que recomendo para todos os meus pacientes!",
+      content: "Como profissional, fiquei impressionada com a seleção de figuras. Um material essencial para quem trabalha com comunicação!",
       rating: 5
     },
     {
       name: "Roberto Lima",
-      role: "Avô de adolescente autista",
-      content: "Nunca é tarde para aprender. Este curso me deu ferramentas para me conectar melhor com meu neto. Muito obrigado!",
+      role: "Avô de criança com TEA",
+      content: "Finalmente consigo entender o que meu neto quer me dizer. O kit trouxe conexão e alegria para nossa família!",
       rating: 5
     },
     {
       name: "Juliana Costa",
       role: "Educadora especial",
-      content: "Informações práticas que fazem toda a diferença no dia a dia escolar. Curso indispensável para educadores!",
+      content: "Material prático que faz diferença real na sala de aula. As 16 categorias cobrem tudo que precisamos no dia a dia!",
       rating: 5
     },
     {
       name: "Fernando Alves",
-      role: "Pai de gêmeos autistas",
-      content: "Encontrei neste curso o apoio e conhecimento que tanto precisava. Hoje me sinto mais preparado para ajudar meus filhos!",
+      role: "Pai de criança autista",
+      content: "Investimento que vale muito a pena! Minha filha está mais segura e feliz ao se comunicar. Muito obrigado!",
       rating: 5
     }
   ];
@@ -68,7 +68,7 @@ const Testimonials = () => {
             O Que Nossos <span className="text-coral">Clientes Dizem</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Avaliações reais de famílias que transformaram suas jornadas
+            Famílias e profissionais que usam o Kit CAA Básico
           </p>
         </div>
 
@@ -137,10 +137,10 @@ const Testimonials = () => {
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-coral mb-1">
-                500+
+                300+
               </div>
               <div className="text-xs md:text-sm text-muted-foreground">
-                Famílias transformadas
+                Famílias usando o kit
               </div>
             </div>
           </div>
