@@ -22,6 +22,14 @@ const FAQ = () => {
     {
       question: "O que são as 16 categorias incluídas?",
       answer: "O kit inclui: Alimentos, Brinquedos, Cores, Ações, Atividades da vida diária, Animais, Datas, Corpo humano, Instrumentos, Lugares, Números, Roupas, Transportes, Profissões e Emoções - cobrindo as principais necessidades de comunicação do dia a dia."
+    },
+    {
+      question: "Como visualizar os arquivos PDF?",
+      answer: "Para visualizar os PDFs, você pode usar qualquer programa leitor de PDF. No computador, basta dar dois cliques no arquivo que ele abrirá automaticamente. No celular ou tablet, toque no arquivo e escolha um aplicativo como Adobe Reader (disponível gratuitamente na loja de apps) ou o visualizador padrão do seu dispositivo."
+    },
+    {
+      question: "Como extrair os arquivos .zip?",
+      answer: "No computador Windows: clique com o botão direito no arquivo .zip e escolha 'Extrair tudo'. No Mac: dê dois cliques no arquivo. No celular Android ou iPhone: baixe um app gratuito como 'WinZip' ou 'Files by Google', abra o arquivo .zip no app e toque em 'Extrair'. Os arquivos ficarão em uma pasta com o mesmo nome do arquivo .zip."
     }
   ];
 
