@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import ForWho from "@/components/ForWho";
 import Benefits from "@/components/Benefits";
 import About from "@/components/About";
+import KitCategories from "@/components/KitCategories";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
@@ -12,9 +13,10 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-      <ForWho />
-      <Benefits />
       <About />
+      <ForWho />
+      <KitCategories />
+      <Benefits />
       <Testimonials />
       <CTA />
       <FAQ />
